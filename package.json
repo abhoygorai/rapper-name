@@ -1,0 +1,16 @@
+{
+  "name": "rapper-name",
+  "version": "1.0.0",
+  "description": "This package gives a random name of a rapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhoygorai/rapper-name.git"
+  },
+  "keywords": ["rapper", "hiphop", "random", "random name"],
+  "author": "Abhoy Gorai",
+  "license": "ISC"
+}
