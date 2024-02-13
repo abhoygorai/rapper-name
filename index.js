@@ -1,5 +1,9 @@
-const data = ['21 Savage', 'Kanye West', 'Travis Scott', 'Kedrik Lamar', 'J Cole', 'Eminem', 'Future', 'Gunna', 'Don Toliver', 'Juice World', 'Kodak Black', 'Playboi Carti', 'Swae Lee', 'Young Thug', 'Drake', 'Lil Baby', 'Jay Z', '2Pac', 'Dababy'];
+const data = require('./data/data.js');
 
+/**
+ * Generates a random rapper name from the data array.
+ * @returns {string} A random rapper name.
+ */
 function getName(){
     const l = data.length;
     const idx = Math.floor(Math.random() * l);
